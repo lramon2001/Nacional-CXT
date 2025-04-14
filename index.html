@@ -74,6 +74,34 @@
       margin: 1rem;
       vertical-align: middle;
     }
+
+    .regras {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #262626;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0 8px #FFD70033;
+}
+.regras-titulo {
+  font-weight: bold;
+  color: #FFD700;
+  cursor: pointer;
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.regras-lista {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: none;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+#toggle-regras:checked + .regras-titulo + .regras-lista {
+  display: block;
+}
+
   </style>
 </head>
 <body>
@@ -108,6 +136,14 @@
 
     <div class="legenda">🚐 Transporte com van incluso para os eventos sinalizados</div>
   </main>
+<div class="regras">
+  <input type="checkbox" id="toggle-regras" hidden>
+  <label for="toggle-regras" class="regras-titulo">📋 Regras do Clube (clique para ver)</label>
+  <ul class="regras-lista">
+    <li>Uso da piscina somente com exame médico válido</li>
+    <li>Traje de banho obrigatório</li>
+  </ul>
+</div>
 
   <footer class="logos">
     <img src="https://raw.githubusercontent.com/lramon2001/Nacional-CXT/main/4.png" alt="Logo Nacional Clube XT" />
