@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nacional 2025 Clube XT600</title>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     body {
       margin: 0;
@@ -53,21 +53,16 @@
       color: #f28c28;
       font-weight: bold;
     }
-
-    /* Estilo para locais com ícone de localização */
-    .evento::after {
-      display: block;
-      margin-top: 4px;
+    a.local-link {
+      color: #f2f2f2;
+      text-decoration: underline;
+    }
+    .legenda {
       font-size: 0.9rem;
-      color: #aaa;
+      color: #ccc;
+      margin-top: 2rem;
+      text-align: center;
     }
-    .evento:has(:contains("Galpão 17"))::after {
-      content: "📍 Galpão 17";
-    }
-    .evento:has(:contains("CAESO"))::after {
-      content: "📍 CAESO - CAESB Esportiva e Social";
-    }
-
     footer {
       text-align: center;
       margin: 2rem 0;
@@ -81,41 +76,41 @@
 </head>
 <body>
   <header>
-    <img src="https://raw.githubusercontent.com/lramon2001/Nacional-CXT/main/4.png" alt="Logo Nacional Clube XT">
+    <img src="https://raw.githubusercontent.com/lramon2001/Nacional-CXT/main/4.png" alt="Logo Nacional Clube XT" />
     <h1>CRONOGRAMA DO EVENTO</h1>
   </header>
+
   <main class="cronograma">
-  <div class="dia">QUINTA-FEIRA (17/04)</div>
-  <div class="evento"><span>20:00 às 02:00</span> - Butecada com sorteio do Lava Moto - 📍 Galpão 17 🚐</div>
+    <div class="dia">QUINTA-FEIRA (17/04)</div>
+    <div class="evento"><span>20:00 às 02:00</span> - Butecada com sorteio do Lava Moto - 📍 <a href="https://www.google.com/maps/search/?api=1&query=Galpão+17+Brasília+DF" target="_blank" class="local-link">Galpão 17</a> 🚐</div>
 
-  <div class="dia">SEXTA-FEIRA (18/04)</div>
-  <div class="evento"><span>08:00 às 13:00</span> - Recepção dos malas e entrega dos kits - 📍 Quality Hotel & Suites Brasília 🚐</div>
-  <div class="evento"><span>13:00 às 15:00</span> - Almoço (Feijoada) - 📍 CAESO - CAESB Esportiva e Social</div>
-  <div class="evento"><span>15:00 às 16:00</span> - Livre - 📍 CAESO - CAESB Esportiva e Social</div>
-  <div class="evento"><span>16:00 às 19:00</span> - DJ Sucão - 📍 CAESO - CAESB Esportiva e Social</div>
-  <div class="evento"><span>20:00 às 23:00</span> - Banda Velhas Virgens - 📍 CAESO - CAESB Esportiva e Social 🚐</div>
-  <div class="evento"><span>23:00 às 00:00</span> - Streap do Ursinho no Camping - 📍 CAESO - CAESB Esportiva e Social</div>
+    <div class="dia">SEXTA-FEIRA (18/04)</div>
+    <div class="evento"><span>08:00 às 13:00</span> - Recepção dos malas e entrega dos kits - 📍 <a href="https://www.google.com/maps/search/?api=1&query=Quality+Hotel+%26+Suites+Brasília+DF" target="_blank" class="local-link">Quality Hotel & Suites Brasília</a> 🚐</div>
+    <div class="evento"><span>13:00 às 15:00</span> - Almoço (Feijoada) - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a></div>
+    <div class="evento"><span>15:00 às 16:00</span> - Livre - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a></div>
+    <div class="evento"><span>16:00 às 19:00</span> - DJ Sucão - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a></div>
+    <div class="evento"><span>20:00 às 23:00</span> - Banda Velhas Virgens - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a> 🚐</div>
+    <div class="evento"><span>23:00 às 00:00</span> - Streap do Ursinho no Camping - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a></div>
 
-  <div class="dia">SÁBADO (19/04)</div>
-  <div class="evento"><span>08:00 às 12:00</span> - Livre com sugestão de passeio</div>
-  <div class="evento"><span>13:00 às 15:00</span> - Almoço (Churrasco) - 📍 CAESO - CAESB Esportiva e Social</div>
-  <div class="evento"><span>15:00 às 18:00</span> - DJ Sucão - 📍 CAESO - CAESB Esportiva e Social</div>
-  <div class="evento"><span>19:00 às 23:00</span> - Banda JD - 📍 CAESO - CAESB Esportiva e Social 🚐</div>
+    <div class="dia">SÁBADO (19/04)</div>
+    <div class="evento"><span>08:00 às 12:00</span> - Livre com sugestão de passeio</div>
+    <div class="evento"><span>13:00 às 15:00</span> - Almoço (Churrasco) - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a></div>
+    <div class="evento"><span>15:00 às 18:00</span> - DJ Sucão - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a></div>
+    <div class="evento"><span>19:00 às 23:00</span> - Banda JD - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a> 🚐</div>
 
-  <div class="dia">DOMINGO (20/04)</div>
-  <div class="evento"><span>08:00 às 12:00</span> - Manhã no Clube - 📍 CAESO - CAESB Esportiva e Social  🚐</div>
-  <div class="evento"><span>13:00 às 15:00</span> - Churrasco e Banda Velhas Virgens - 📍 CAESO - CAESB Esportiva e Social</div>
-  <div class="evento"><span>15:00 às 16:00</span> - Concurso de cachaça e palhaço - 📍 CAESO - CAESB Esportiva e Social</div>
-  <div class="evento"><span>18:30 às 20:30</span> - Churrasco e Banda Ghost Riders - 📍 CAESO - CAESB Esportiva e Social 🚐</div>
+    <div class="dia">DOMINGO (20/04)</div>
+    <div class="evento"><span>08:00 às 12:00</span> - Manhã no Clube - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a> 🚐</div>
+    <div class="evento"><span>13:00 às 15:00</span> - Churrasco e Banda Velhas Virgens - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a></div>
+    <div class="evento"><span>15:00 às 16:00</span> - Concurso de cachaça e palhaço - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a></div>
+    <div class="evento"><span>18:30 às 20:30</span> - Churrasco e Banda Ghost Riders - 📍 <a href="https://www.google.com/maps/search/?api=1&query=CAESO+-+Clube+da+CAESB+Brasília+DF" target="_blank" class="local-link">CAESO - CAESB Esportiva e Social</a> 🚐</div>
 
-  <p style="font-size: 0.9rem; color: #ccc;">🚐 Transporte com van incluso</p>
-
-</main>
+    <div class="legenda">🚐 Transporte com van incluso para os eventos sinalizados</div>
+  </main>
 
   <footer class="logos">
-    <img src="https://raw.githubusercontent.com/lramon2001/Nacional-CXT/main/4.png" alt="Logo Nacional Clube XT">
-    <img src="https://raw.githubusercontent.com/lramon2001/Nacional-CXT/main/3.png" alt="Logo Clube XT Brasil 2">
-    <img src="https://raw.githubusercontent.com/lramon2001/Nacional-CXT/main/2.png" alt="Logo Selo Candanguim">
+    <img src="https://raw.githubusercontent.com/lramon2001/Nacional-CXT/main/4.png" alt="Logo Nacional Clube XT" />
+    <img src="https://raw.githubusercontent.com/lramon2001/Nacional-CXT/main/3.png" alt="Logo Clube XT Brasil 2" />
+    <img src="https://raw.githubusercontent.com/lramon2001/Nacional-CXT/main/2.png" alt="Logo Selo Candanguim" />
   </footer>
 </body>
 </html>
